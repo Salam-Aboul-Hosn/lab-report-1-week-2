@@ -10,7 +10,7 @@ In order to remotely connect you must use the ssh command followed by the server
 **Example of ls -lat command**![Image](LatCommand.png)
 The command I used was ls -lat. The ls -lat command allows you to list all files or directories in the current directory by default. In order to use this command you open your terminal and type them. 
 # Moving Files with scp
-
+![Image](SCP.png)
 # Setting an SSH Key
-
+![Image]()
 # Optimizing Remote Running
