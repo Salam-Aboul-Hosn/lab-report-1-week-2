@@ -4,7 +4,7 @@ I went to this [website](https://code.visualstudio.com/download) and clicked on 
 
 # Remotely Connecting
 ![Image](RemotelyConnecting.png)
-In order to remotely connect you must use the ssh command followed by the server address. For example my command was ssh cs15lwi22auz@ieng6.ucsd.edu). After doing the ssh command an option to  put in your password should appear. Type in your password and now your terminal will be connected to the server.
+In order to remotely connect you must use the ssh command followed by the server address. For example my command was ssh cs15lwi22auz@ieng6.ucsd.edu. After doing the ssh command an option to  put in your password should appear. Type in your password and now your terminal will be connected to the server.
 
 # Trying Some Commands
 **Example of ls -lat command**![Image](LatCommand.png)
