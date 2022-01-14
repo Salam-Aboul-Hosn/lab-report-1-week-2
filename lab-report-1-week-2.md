@@ -1,6 +1,6 @@
 # Installing VScode
 ![Image](DownloadVSCode.png)
-I went to the website: [Link](https://code.visualstudio.com/download) and clicked on the blue download button for Mac OS. This installed the Visual Studio Code and then I opened it in my files in order to run it.
+I went to this [Link](https://code.visualstudio.com/download) and clicked on the blue download button for Mac OS. This installed the Visual Studio Code and then I opened it in my files in order to run it.
 
 # Remotely Connecting
 ![Image](RemotelyConnecting.png)
@@ -8,6 +8,7 @@ In order to remotely connect you must use the ssh command followed by the server
 
 # Trying Some Commands
 
+The commands I used were cd and ls -lat
 # Moving Files with scp
 
 # Setting an SSH Key
