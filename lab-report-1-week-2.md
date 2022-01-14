@@ -14,3 +14,5 @@ The command I used was ls -lat. The ls -lat command allows you to list all files
 # Setting an SSH Key
 ![Image](SSHkey.png)
 # Optimizing Remote Running
+
+In order to optimize runnning the user is allowed to use semi colons in order to type multiple commands in one line. With semi colons after every command, you can type the commands in one line instead of typing them each seperately and clicking enter.
