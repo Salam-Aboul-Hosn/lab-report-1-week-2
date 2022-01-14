@@ -11,7 +11,7 @@ In order to remotely connect you must use the ssh command followed by the server
 The command I used was ls -lat. The ls -lat command allows you to list all files or directories in the current directory by default. In order to use this command you open your terminal and type them. 
 # Moving Files with scp
 ![Image](SCP.png)
-The scp command coppies files between a local and a remote system and is used to transfer data. In this case we ran the command: scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/ As we can see here the commmand is scp (java file name) with the server address (cs15lwi22auz@ieng6.ucsd.edu) following with :~/ This allowed us to copy a file from our computer to a remote computer. 
+The scp command coppies files between a local and a remote system and is used to transfer data. In this case we ran the command: scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:\~/ As we can see here the commmand is scp (java file name) with the server address (cs15lwi22auz@ieng6.ucsd.edu) following with :\~/ This allowed us to copy a file from our computer to a remote computer. 
 # Setting an SSH Key
 ![Image](SSHkey.png)
 Instead of having to type in your password every time you log in we can create an ssh key. Type in the command ssh-keygen. This command creates a public and private key. You have to copy public key to a specific location on the server and copy the private key to a location on the client. Copy the public key onto the .ssh directory and as a result you can run the ssh or scp command from your client to the server without entering your password. My command was $ scp /Users/salamaboulhosn/.ssh/id_rsa.pub cs15lwi22auz@ieng6.ucsd.edu:~/.ssh/authorized_keys
