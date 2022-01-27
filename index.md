@@ -7,8 +7,8 @@ I went to this [website](https://code.visualstudio.com/download) and clicked on 
 In order to remotely connect you must use the ssh command followed by the server address. For example my command was ssh cs15lwi22auz@ieng6.ucsd.edu. After doing the ssh command an option to  put in your password should appear. Type in your password and now your terminal will be connected to the server.
 
 # Trying Some Commands
-**Example of ls -lat command**![Image](LatCommand.png)
-The command I used was ls -lat. The ls -lat command allows you to list all files or directories in the current directory by default. In order to use this command or any other command you open your terminal, type them in, and click enter. 
+**Example of `ls -lat` command**![Image](LatCommand.png)
+The command I used was `ls -lat`. The `ls -lat` command allows you to list all files or directories in the current directory by default. In order to use this command or any other command you open your terminal, type them in, and click enter. 
 # Moving Files with scp
 ![Image](SCP.png)
 The scp command coppies files between a local and a remote system and is used to transfer data. In this case we ran the command: scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:\~/ As we can see here the commmand is scp (java file name) with the server address (cs15lwi22auz@ieng6.ucsd.edu) following with :\~/ This allowed us to copy a file from our computer to a remote computer. 
